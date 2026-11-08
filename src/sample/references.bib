@@ -1,0 +1,44 @@
+% =====================================================================
+% 参考文献データベース
+%   - 日本語文献も英語文献も同じファイルに書いてよい
+%   - エントリの種類: 論文誌は article，国際会議・研究会は inproceedings，
+%     書籍は book，Webページは misc（参照日を note に書く）
+%   - 注意: コメント行にアットマーク記号を書くとエラーになる
+%   - Google Scholar や DBLP，J-STAGE の BibTeX 出力を貼り付けてもよいが，
+%     著者名・巻号・ページなどに誤りがないか必ず確認すること
+% =====================================================================
+
+@article{matsuo2006,
+  author  = {松尾 豊},
+  title   = {なぜ私たちはいつも締め切りに追われるのか},
+  journal = {人工知能学会論文誌},
+  volume  = {21},
+  number  = {1},
+  pages   = {1--4},
+  year    = {2006},
+}
+
+@misc{ieice_shiori,
+  author       = {{電子情報通信学会}},
+  title        = {電子情報通信学会和文論文誌　投稿のしおり},
+  howpublished = {\url{https://www.ieice.org/jpn/shiori/ess_2.html}},
+  note         = {参照 2024年12月9日},
+}
+
+@inproceedings{zhang2015fpga,
+  author    = {Chen Zhang and Peng Li and Guangyu Sun and Yijin Guan and Bingjun Xiao and Jason Cong},
+  title     = {Optimizing {FPGA}-based Accelerator Design for Deep Convolutional Neural Networks},
+  booktitle = {Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)},
+  pages     = {161--170},
+  year      = {2015},
+  doi       = {10.1145/2684746.2689060},
+}
+
+@inproceedings{vaswani2017attention,
+  author    = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and {\L}ukasz Kaiser and Illia Polosukhin},
+  title     = {Attention Is All You Need},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {30},
+  pages     = {5998--6008},
+  year      = {2017},
+}
