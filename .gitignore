@@ -1,2 +1,4 @@
 src/*
 !src/sample
+
+.DS_Store
